@@ -1,0 +1,16 @@
+body{background-color: #f5f5dd;}
+.kwadrat-1,.kwadrat-2,.kwadrat-3,.kwadrat-4{
+    background: rgba(0, 0, 0, 2);
+    height: 10em;
+    width: 10em;
+}
+.kwadrat-2{background: rgba(0, 0, 0, 0.7)}
+.kwadrat-3{background: rgba(0, 0, 0, 0.4)}
+.kwadrat-4{background: rgba(0, 0, 0, 0.2)}
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    margin-top: 3rem;
+}
